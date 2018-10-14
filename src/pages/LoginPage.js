@@ -89,8 +89,8 @@ class LoginPage extends React.Component {
             return <ActivityIndicator />;
         return (
             <Button
-            title='Entrar' 
-            onPress={() => this.tryLogin()} />
+                title='Entrar' 
+                onPress={() => this.tryLogin()} />
         );
     }
 
